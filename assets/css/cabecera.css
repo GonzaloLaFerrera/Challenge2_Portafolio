@@ -1,0 +1,22 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera__logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera__titulo{
+    font-weight: 700;
+}
+
+.cabecera__lista{
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecera__item--contacto{
+    font-weight: 700;
+}

@@ -1,0 +1,20 @@
+:root{
+    --color-de-fondo: #F5F5F5;
+    --color-de-link: #000;
+    --color-fuente: #464646;
+
+    --raleway: "Raleway", sans-serif;
+}
+
+body{
+    background-color: var(--color-de-fondo);
+    font-family: var(--raleway);
+    color: var(--color-fuente);
+    box-sizing: border-box;
+    margin-top: 2.15625rem;
+}
+
+.container{
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+}
