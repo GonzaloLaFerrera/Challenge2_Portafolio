@@ -1,0 +1,26 @@
+.sobre-mi{
+    margin: 0;
+    padding: 4rem 9.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--color-de-fondo2);
+}
+
+.sobre-mi__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+
+.sobre-mi__parrafo1, .sobre-mi__parrafo2{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    max-width: 68%;
+}
+
+.sobre-mi__firma{
+    width: 140px;
+    height: 52px;
+}
