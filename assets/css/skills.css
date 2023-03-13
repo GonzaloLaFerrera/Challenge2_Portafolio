@@ -1,0 +1,36 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5.5rem;
+    gap: 2rem;
+    background-color: black;
+    margin: 0;
+    padding: 4rem 9.5rem;
+}
+
+.skills__titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.skills__listaCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.skills__card{
+    background-color: var(--color-de-fondo-cards);
+    width: 11rem;
+    height: 10.875rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
