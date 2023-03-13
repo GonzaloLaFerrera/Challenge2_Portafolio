@@ -1,26 +1,46 @@
 .skills{
+    /* CSS nuevo */
+    margin: 0;
+    padding: 2rem 9.5rem 5.5rem; 
+    
+    /* CSS viejo
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 5.5rem;
-    gap: 2rem;
-    background-color: black;
+    align-items: center; */
+    /* margin-top: 2rem;
+    margin-bottom: 5.5rem; */
+    /* gap: 2rem;
     margin: 0;
-    padding: 4rem 9.5rem;
+    padding: 2rem 9.5rem 5.5rem; */
 }
 
 .skills__titulo{
+    /* CSS nuevo */
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    /* CSS viejo
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem; */
 }
 
 .skills__listaCards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* Display con Flexbox */
+    display: flex;
+    justify-content: space-between;
     gap: 1rem;
-    justify-content: space-evenly;
+
+
+    /* Display con CSS Grid */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;   */  
 }
 
 .skills__card{
@@ -32,5 +52,5 @@
     padding: 1rem;
     justify-content: flex-end;
     align-items: flex-start;
-    
+    gap: 0.5rem;    
 }
