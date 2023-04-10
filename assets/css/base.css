@@ -4,6 +4,12 @@
     --color-de-link: #000;
     --color-fuente: #464646;
     --color-de-fondo-cards: #FFFFFF;
+    --color-botones-url: #2A7AE4;
+    --color-botones-repositorio: #F5F5F5;
+    --color-botones-url-hover: #014399;
+    --color-botones-url-active: #75abf1;
+    --color-botones-repositorio-hover: #dad5d5;
+    --color-botones-repositorio-active: #FFFFFF;
 
     --raleway: "Raleway", sans-serif;
 }

@@ -1,0 +1,96 @@
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.experiencia__item {
+    display: flex;
+    gap: 1rem;
+    margin-left: 10rem;
+}
+
+.experiencia__imagen {
+    background-image: url(../img/encriptador.png);
+    height: 25.375rem; 
+    width: 49rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 2px #adadad;
+}
+
+.experiencia__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.experiencia__detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.experiencia__detallesTitulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+
+.experiencia__detallesSubTitulo {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1875rem;
+}
+
+.experiencia__botones {
+    display: flex; 
+    gap: 1rem;
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+
+.experiencia__botones--repositorio {
+    background-color: var(--color-botones-repositorio);
+    color: var(--color-botones-url);
+    border-color: var(--color-botones-url);
+    border-style: solid;    
+}
+
+.experiencia__botones--visitarURL {
+    background-color: var(--color-botones-url);
+    color: #FFFFFF;
+    border: 0;    
+}
+
+.experiencia__botones--repositorio:hover {
+    background-color: var(--color-botones-repositorio-hover);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.experiencia__botones--visitarURL:hover {
+    background-color: var(--color-botones-url-hover) ;
+    transform: scale(1.1);
+    transition: 0.3s;
+} 
+
+.experiencia__botones--repositorio:active {
+    background-color: var(--color-botones-repositorio-active);
+    transition: 0.3s;
+}
+
+.experiencia__botones--visitarURL:active {
+    background-color: var(--color-botones-url-active);
+    transition: 0.3s;
+}

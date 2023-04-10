@@ -17,6 +17,11 @@
     gap: 2rem;
 }
 
+.cabecera__item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .cabecera__item--contacto{
     font-weight: 700;
 }

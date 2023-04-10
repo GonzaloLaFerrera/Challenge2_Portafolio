@@ -37,6 +37,11 @@
     line-height: 1.1875rem;
 }
 
+.presentacion__item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .presentacion__imagen{
     background-image: url(../img/fotoPerfilMia_reducida_comprimida.jpeg);
     height: 368px; 

@@ -1,0 +1,50 @@
+.formacion{
+    margin: 0;
+    background-color: var(--color-de-fondo2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 4rem 9.5rem;
+}
+
+.formacion__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}
+
+.formacion__lista{
+    display: flex;
+    gap: 1rem;
+}
+
+.formacion__item{
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.formacion__recuadroLogo{   
+    width: 23rem;
+    height: 17.875rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-de-fondo-cards);
+    justify-content: center;
+}
+
+.formacion__logo{
+    width: 12rem;
+    height: 8.125rem;
+}
+
+.formacion__carrera{
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    font-weight: 700;
+}

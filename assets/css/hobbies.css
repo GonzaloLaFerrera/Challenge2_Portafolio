@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    max-width: 100%;
 }
 
 .hobbies__card{
