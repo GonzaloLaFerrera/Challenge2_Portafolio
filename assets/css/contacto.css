@@ -1,0 +1,99 @@
+.contacto {
+    display: flex;
+    background-color: var(--color-de-fondo2);
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 8.09375rem 9.5rem 4rem 9.5rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contacto__img {
+    height: 38rem;
+}
+
+.contacto__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    margin-bottom: 0.5rem;
+}
+
+.contacto__subTitulo {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+}
+
+.contacto__subTitulo2 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    margin-bottom: 2rem;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contacto__input {
+    display: flex;
+    align-items: center;
+    width: 41rem;
+    height: 3.5rem;
+    border-radius: 4px;
+    font-family: var(--raleway);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    border: 0;
+    box-shadow: 0px 2px 1px #cacdd1;
+}
+
+.contacto__mensaje {
+    display: flex;
+    align-items: center;
+    width: 41rem;
+    height: 8.3125rem;
+    border-radius: 4px;
+    font-family: var(--raleway);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 0;
+    resize: none;
+    box-shadow: 0px 2px 1px #cacdd1;
+}
+
+.contacto__btnSubmit {
+    display: flex; 
+    gap: 1rem;
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--color-botones-url);
+    color: #FFFFFF;
+    border: 0;
+    justify-content: center;
+    align-items: center; 
+    width: 10rem;
+    
+}
+
+.contacto__btnSubmit:hover {
+    background-color: var(--color-botones-url-hover) ;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.contacto__btnSubmit:active {
+    background-color: var(--color-botones-url-active);
+    transition: 0.3s;
+}
+
+/* faltan algunos detalles en los inputs como el highlight en placeholder y customizar mensajes de error */

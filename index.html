@@ -17,6 +17,9 @@
     <link href="assets/css/hobbies.css" rel="stylesheet">
     <link href="assets/css/formacion.css" rel="stylesheet">
     <link href="assets/css/experiencia.css" rel="stylesheet">
+    <link href="assets/css/contacto.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+
 
 </head>
 <body>
@@ -161,6 +164,29 @@
                 </li>
             </ul>
         </section>
-    </main>    
+
+        <section class="contacto container">
+            <div class="contacto__contenedorImg">
+                <img class="contacto__img" src="assets/img/contact_image.png" alt="Imágen de Teléfono">
+            </div>
+            <div class="contacto__parteFormulario">
+                <h2 class="contacto__titulo">Contacto</h2>
+                <h3 class="contacto__subTitulo">¿Quieres contactarme?</h3>
+                <h3 class="contacto__subTitulo2">Complete el formulario y me pondré en contacto con usted lo antes posible.</h3>
+                <form class="contacto__formulario">
+                    <input class="contacto__input" type="text" placeholder="Nombre y Apellido" required>
+                    <input class="contacto__input" type="email" placeholder="E-mail" required>
+                    <input class="contacto__input" type="text" placeholder="Asunto" required>
+                    <textarea class="contacto__mensaje" rows="5" cols="40" name="mensaje" placeholder="Mensaje"></textarea>
+                    <button class="contacto__btnSubmit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer container">
+        <p>Desarrollado por Gonzalo La Ferrera</p>
+        <p>2023</p>
+    </footer>    
 </body>
 </html>
