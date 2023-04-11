@@ -53,6 +53,30 @@
     box-shadow: 0px 2px 1px #cacdd1;
 }
 
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+  
+.input-container--invalid .contacto__input {
+    border: 1px solid var(--color-error);
+    border-radius: 7px;
+}
+  
+.input-container--invalid {
+    color: var(--color-error);
+}
+
+.input-message-error {
+    display: none;
+}
+  
+.input-container--invalid .input-message-error {
+    color: var(--color-error);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
 .contacto__mensaje {
     display: flex;
     align-items: center;
