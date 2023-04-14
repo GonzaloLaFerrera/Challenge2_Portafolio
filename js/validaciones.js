@@ -26,12 +26,12 @@ const mensajesDeError = {
     },
     email: {
         valueMissing: "El campo correo no puede estar vacío",
-        typeMismatch: "El correo no es válido. Debe contener el caracter especial @ seguido de un dominio o proveedor seguido de un punto. Por ejemplo: contacto@cv.com",
+        typeMismatch: "El correo no es válido. Debe contener el caracter especial @ seguido de un dominio o proveedor seguido de un punto. Por ejemplo: contacto@cv.com"
     },
     asunto: {
         valueMissing: "Este campo no puede estar vacío",
-        customError: "Debes tener al menos 18 años de edad",
-    },
+        customError: "El campo debe tener como máximo 50 caracteres"
+    }
 };
 
 

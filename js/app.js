@@ -7,3 +7,13 @@ inputs.forEach((input) => {
     valida(input.target);
   });
 });
+
+
+/* const mensajeTextArea = document.querySelector(".contacto__mensaje");
+
+function validacionMensaje(){ 
+  if (mensajeTextArea.value=="" || mensajeTextArea.length <= 50 ){
+    alert("Campo Mensaje es obligatorio y debe contener máximo 50 carateres") 
+    mensajeTextArea.focus()
+  }
+}; */

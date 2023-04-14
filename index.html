@@ -30,38 +30,38 @@
         </div>
         <nav class="cabecera__menu">
             <ul class="cabecera__lista">
-                <li class="cabecera__item"><a href="#">Sobre mí</a></li>
-                <li class="cabecera__item"><a href="#">Skills</a></li>
-                <li class="cabecera__item"><a href="#">Hobbies</a></li>
-                <li class="cabecera__item"><a href="#">Formación</a></li>
-                <li class="cabecera__item"><a href="#">Proyectos</a></li>
+                <li class="cabecera__item"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="cabecera__item"><a href="#skills">Skills</a></li>
+                <li class="cabecera__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="cabecera__item"><a href="#formacion">Formación</a></li>
+                <li class="cabecera__item"><a href="#experiencia">Proyectos</a></li>
                 <li class="cabecera__item cabecera__item--contacto"><a href="mailto:gonzalo.laferrera@gmail.com">gonzalo.laferrera@gmail.com</a></li>
             </ul>
         </nav>        
     </header>
     <main>
-        <section class="presentacion container">
+        <section class="presentacion container" id="presentacion">
             <div class="presentacion__textosYlista">
                 <h1 class="presentacion__titulo">Hola! Mi nombre es Gonzalo La Ferrera y soy desarrollador de páginas web</h1>
                 <h3 class="presentacion__descripcion">Me he formado en la Universidad del Salvador, y en otras instituciones terciarias... actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="presentacion__lista">
-                    <li class="presentacion__item"><a href="#">GitHub<img src="assets/img/arrow.png"></a></li>
-                    <li class="presentacion__item"><a href="#">Linkedin<img src="assets/img/arrow.png"></a></li>
-                    <li class="presentacion__item"><a href="#">Instagram<img src="assets/img/arrow.png"></a></li>
-                    <li class="presentacion__item"><a href="#">Currículum<img src="assets/img/arrow.png"></a></li>
+                    <li class="presentacion__item"><a href="https://github.com/GonzaloLaFerrera">GitHub<img src="assets/img/arrow.png"></a></li>
+                    <li class="presentacion__item"><a href="https://www.linkedin.com/in/gonzalo-la-ferrera-a781b6259/">Linkedin<img src="assets/img/arrow.png"></a></li>
+                    <li class="presentacion__item"><a href="https://www.instagram.com/charangonzalo/">Instagram<img src="assets/img/arrow.png"></a></li>
+                    <li class="presentacion__item"><a href="#">Currículum<img src="assets/img/arrow.png"></a></li> <!--crear un pdf en canva.com y subirlo a la carpeta ./assets/docs/profile_cv.pdf y linkearlo aquí-->
                 </ul>
             </div>
             <div class="presentacion__imagen"></div>
         </section>
 
-        <section class="sobre-mi container">
+        <section class="sobre-mi container" id="sobre-mi">
             <h2 class="sobre-mi__titulo">Sobre mí</h2>
             <p class="sobre-mi__parrafo1">Soy Argentino, de 35 años de edad. Resido en la Ciudad Autónoma de Buenos Aires. He estudiado en la carrera de traductor literario en Inglés en la Universidad del Salvador. Y estudié música popular en la Escuela de Música Popular de Avellaneda.</p>
             <p class="sobre-mi__parrafo2">Actualmente trabajo como productor cultural y organizador de eventos artísticos,y como prof. de música. Formo parte del programa ONE de Oracle y Alura Latam, y mi objetivo es poder desarrollarme como front-end developer y entrar al mercado tecnológico.</p>
             <img class="sobre-mi__firma" src="assets/img/signature.png" alt="firma-signature personal">
         </section>
 
-        <section class="skills container">
+        <section class="skills container" id="skills">
             <h2 class="skills__titulo">Skills</h2>
             <ul class="skills__listaCards">
                 <li class="skills__card">
@@ -91,7 +91,7 @@
             </ul>
         </section>
 
-        <section class="hobbies container">
+        <section class="hobbies container" id="hobbies">
             <h2 class="hobbies__titulo">Hobbies</h2>
             <ul class="hobbies__lista">
                 <li class="hobbies__card">
@@ -121,7 +121,7 @@
             </ul>
         </section>
 
-        <section class="formacion container">
+        <section class="formacion container" id="formacion">
             <h2 class="formacion__titulo">Formación Académica</h2>
             <ul class="formacion__lista">
                 <li class="formacion__item">
@@ -148,7 +148,7 @@
             </ul>
         </section>
 
-        <section class="experiencia container">
+        <section class="experiencia container" id="experiencia">
             <h2 class="experiencia__titulo">Experiencia profesional</h2>
             <ul class="experiencia__lista">
                 <li class="experiencia__item">
@@ -165,7 +165,7 @@
             </ul>
         </section>
 
-        <section class="contacto container">
+        <section class="contacto container" id="contacto">
             <div class="contacto__contenedorImg">
                 <img class="contacto__img" src="assets/img/contact_image.png" alt="Imágen de Teléfono">
             </div>
@@ -183,11 +183,11 @@
                         <span class="input-message-error"></span>
                     </div>
                     <div class="input-container">
-                        <input class="contacto__input" type="text" placeholder="Asunto" required data-tipo="asunto">
+                        <input class="contacto__input" type="text" placeholder="Asunto" required data-tipo="asunto" maxlength="50">
                         <span class="input-message-error"></span>
                     </div>
                     <div class="input-container">   
-                        <textarea class="contacto__mensaje" rows="5" cols="40" name="mensaje" placeholder="Mensaje"></textarea>
+                        <textarea class="contacto__mensaje" rows="5" cols="40" name="mensaje" placeholder="Mensaje" required maxlength="300"></textarea>
                         <span class="input-message-error"></span>
                     </div>
                     <button class="contacto__btnSubmit">Enviar Mensaje</button>
