@@ -21,16 +21,20 @@ const tipoDeErrores = [
 
 const mensajesDeError = {
     nombre: {
-        valueMissing: "El campo nombre no puede estar vacío",
+        valueMissing: "El campo 'Nombre' no puede estar vacío",
         customError: "El campo debe tener como máximo 50 caracteres"
     },
     email: {
-        valueMissing: "El campo correo no puede estar vacío",
+        valueMissing: "El campo 'Correo' no puede estar vacío",
         typeMismatch: "El correo no es válido. Debe contener el caracter especial @ seguido de un dominio o proveedor seguido de un punto. Por ejemplo: contacto@cv.com"
     },
     asunto: {
-        valueMissing: "Este campo no puede estar vacío",
+        valueMissing: "Este campo 'Asunto' no puede estar vacío",
         customError: "El campo debe tener como máximo 50 caracteres"
+    },
+    mensaje: {
+      valueMissing: "Este campo 'Asunto' no puede estar vacío",
+      customError: "El campo debe tener como máximo 300 caracteres"
     }
 };
 
